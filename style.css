@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    background-color: #394098;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.main-content {
+    display: grid;
+    grid-template-columns: 0.2fr 0.8fr;
+    gap: 30px;
+    padding: 10px;
+}
+
+
+.left-column form, .left-column input, .left-column button{
+    width: 100%;
+}
+
+form {
+    margin-bottom: 10px;
+}
+
+form h2 {
+    margin-bottom: 15px;
+}
+
+form input {
+    margin-bottom:9px;
+    padding: 5px 0px;
+}
+
+form button {
+    background-color: #6991e3;
+    color: #fff;
+    border: none;
+    padding: 8px 0;
+    margin-bottom:0px;
+}
+
+.city-button {
+    margin-bottom: 10px;
+    padding: 7px 0;
+    border: none; 
+    background-color: #aeaeae;  
+}
+
+#daily-forecast {
+    border: 1px solid black;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+#daily-forecast * {
+    margin-bottom: 10px;
+}
+
+#daily-forecast img {
+    width: 30px;
+}
+
+#daily-forecast h2 {
+    display: flex;
+}
+
+#daily-forecast h2 span {
+    margin-right: 10px;
+}
+
+.five-day-forecast h3 {
+    margin-bottom: 10px;
+}
+
+.five-day-forecast #five-day-forecast-cards {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+}
+
+
+.five-day-forecast #five-day-forecast-cards .card {
+    background-color: #323d4f;
+    color: #fff;
+    padding: 10px;
+}
+
+.five-day-forecast #five-day-forecast-cards .card * {
+    margin-bottom: 10px;
+}
